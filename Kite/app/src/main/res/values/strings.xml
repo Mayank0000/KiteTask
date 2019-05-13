@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KiteAndroid</string>
+    <string name="network_not_available">Please check your internet connection.</string>
+</resources>

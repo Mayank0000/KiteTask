@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.example.kite.utils.ProfileModelClass" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            android:text="@{model.userName}"
+            android:textSize="@dimen/dimen_16" />
+        <TextView
+            android:id="@+id/user_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            
+            android:text="@{model.userCompany}"
+            android:textSize="@dimen/dimen_16" />
+        <TextView
+            android:id="@+id/user_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            
+            android:text="@{model.userLocation}"
+            android:textSize="@dimen/dimen_16" />
+
+        <TextView
+            android:id="@+id/user_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            
+            android:text="@{model.userURL}"
+            android:textSize="@dimen/dimen_16" />
+        <TextView
+            android:id="@+id/user_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            
+            android:text="@{model.userType}"
+            android:textSize="@dimen/dimen_16" />
+        <TextView
+            android:id="@+id/user_followers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            
+            android:text="@{model.userFollowers}"
+            android:textSize="@dimen/dimen_16" />
+        <TextView
+            android:id="@+id/user_following"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            
+            android:text="@{model.userFollowing}"
+            android:textSize="@dimen/dimen_16" />
+        <TextView
+            android:id="@+id/user_repos_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_marginStart="@dimen/dimen_10"
+            android:text="@{model.userReposURL}"
+            android:textSize="@dimen/dimen_16" />
+
+    </LinearLayout>
+
+</layout>
